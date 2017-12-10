@@ -5,7 +5,7 @@ Transmission daemon docker container based in a minimal Alpine linux, customized
 ### On host you should create the folowing directory structure:
 
 ```
-# mkdir/Path/to/Videos/{Downloads,Incomplete,Movies;TV_Shows}
+# mkdir/Path/to/Videos/{Downloads,Incomplete,Movies,TV_Shows}
 # tree /Path/to/Videos/ -L 1
 /Path/to/Videos/
 ├── Downloads

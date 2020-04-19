@@ -30,7 +30,7 @@ drwxrwxr-x. 3 user group 31 Dec  9 23:53 TV_Shows
 ```
     podman run --restart=always -d --name transmission \
     -p 51413:51413 -p 51413:51413/udp -p 127.0.0.1:9091:9091 \
-    -e USERNAME=user -e ADMIN_PASS=password \
+    -e USERNAME=user -e PASSWORD=password \
     -e PGID=1000 -e PUID=1000 \
     -v /$HOME/Videos/Downloads:/transmission/downloads \
     -v /$HOME/Videos/Incomplete:/transmission/incomplete \

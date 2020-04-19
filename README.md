@@ -35,7 +35,7 @@ drwxrwxr-x. 3 user group 31 Dec  9 23:53 TV_Shows
     -v /$HOME/Videos/Downloads:/transmission/downloads \
     -v /$HOME/Videos/Incomplete:/transmission/incomplete \
     -v /$HOME/Videos/TV_Shows:/transmission/TV_Shows\
-    transmission-alpine
+    quay.io/silvinux/transmission-alpine
 
 ```
 #### Options:

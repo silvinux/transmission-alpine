@@ -54,11 +54,15 @@ Volumes on host binding to container:
 
 ### Build image
 
+```
 - Set variable's values.
 $ TUID=1313
 $ TGID=1313
 $ USERNAME=btannen
 $ PASSWORD=biffco
+```
 
 - Build the image
+```
 $ podman build --tag alpine:transmission -f Dockerfile --build-arg TUID=${TUID} --build-arg TGID=${TGID} --build-arg USERNAME=${USERNAME} --build-arg PASSWORD=${PASSWORD}
+```
